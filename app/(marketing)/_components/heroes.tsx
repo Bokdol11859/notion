@@ -5,7 +5,7 @@ const Heroes = () => {
   return (
     <div className="flex max-w-5xl flex-col items-center justify-center">
       <div className="flex items-center">
-        <div className="relative h-[200px] w-[400px] sm:h-[300px] sm:w-[550px] md:h-[400px] md:w-[700px]">
+        <div className="relative h-[200px] w-[350px] sm:h-[300px] sm:w-[550px] md:h-[400px] md:w-[700px]">
           <Image
             src="/landing.webp"
             alt="landing"
