@@ -19,11 +19,11 @@ const Navbar = () => {
   return (
     <div
       className={cn(
-        "fixed top-0 z-50 flex w-full items-center bg-background p-6  dark:bg-[#1F1F1F] ",
+        "fixed top-0 z-50 flex w-full min-w-[450px] items-center bg-background p-6  dark:bg-[#1F1F1F] ",
         scrolled && "border-b shadow-sm",
       )}
     >
-      <div className="flex w-full items-center justify-between gap-x-2  text-black text-muted-foreground md:ml-auto dark:text-white">
+      <div className="flex w-full items-center justify-between gap-x-2  text-black  md:ml-auto dark:text-white">
         <Logo />
         <div className="mr-2 flex items-center">
           {isLoading && <Spinner className="mr-2" />}
